@@ -1,0 +1,26 @@
+
+
+.product {
+    border-radius: 10px;
+    border: 1px solid #8eb463;
+}
+
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+}
+
+.product {
+    margin: 0 10px;
+}
+

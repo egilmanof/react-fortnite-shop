@@ -1,0 +1,12 @@
+
+.shop {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.shop_title {
+    font-family: Averta;
+    font-size: 60px;
+}

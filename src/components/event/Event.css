@@ -1,0 +1,23 @@
+.event {
+    background: url("../../images/bg-event.jpg") top center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.event_title {
+    position: absolute;
+    bottom: -35px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    border: 3px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 48, 126, 0.8);
+    text-shadow: 3px 3px 3px #000000;
+    box-shadow: 3px 3px 3px #000000;
+}

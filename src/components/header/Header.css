@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    padding-left: 50px;
+    padding: 0 50px;
     background-color: #2a2a2a;
     min-height: 50px;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
 
 
 .header_nav {
-    margin-left: 50px;
+    margin-left: auto;
 }
 
 .header_nav-list {
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 120px;
     min-height: 50px;
     color: white;
     text-decoration: none;

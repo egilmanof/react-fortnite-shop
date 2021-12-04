@@ -9,7 +9,6 @@ function Header() {
                     <li className='header_nav-item'><a href="" className='header_nav-link'>Ссылка</a></li>
                     <li className='header_nav-item'><a href="" className='header_nav-link'>Ссылка</a></li>
                     <li className='header_nav-item'><a href="" className='header_nav-link'>Ссылка</a></li>
-                    <li className='header_nav-item'><a href="" className='header_nav-link'>Ссылка</a></li>
                 </ul>
             </nav>
         </div>

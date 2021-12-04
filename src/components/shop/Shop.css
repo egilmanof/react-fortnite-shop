@@ -1,5 +1,9 @@
 
 .shop {
+    background: url("../../images/bg-shop.jpg") top center/cover no-repeat;
+}
+
+.shop_container {
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
@@ -7,6 +11,5 @@
 }
 
 .shop_title {
-    font-family: Averta;
     font-size: 60px;
 }

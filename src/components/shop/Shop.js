@@ -25,9 +25,11 @@ function Shop() {
 
     return (
         <div className='shop'>
-            {
-                loading ? <Preloader/> : <GoodsList goods={goods}/>
-            }
+            <div className="shop_container">
+                {
+                    loading ? <Preloader/> : <GoodsList goods={goods}/>
+                }
+            </div>
         </div>
     );
 }

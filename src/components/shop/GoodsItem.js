@@ -5,17 +5,16 @@ function GoodsItem(props) {
 
     return (
         <div className='product'>
-            <div className="items" id={id}>
-                <img src={icon} alt={name}/>
-                <div className="">
-                    <span className="items_title">{name}</span>
-                    <p>{description}</p>
-                </div>
-                <div className="">
+            <div className="product_items" id={id}>
+                <div className='product_info'>
+                    <img src={icon} alt={name}/>
 
-                    <button className='btn'>Купить</button>
-                    <span className=''>{price}</span>
+                    <span className="product_title">{name}</span>
+                    <p className='product_description'>{description}</p>
                 </div>
+                <span className='product_price'>{price}</span>
+                <span className='product_rate'>В-Баксов</span>
+                <button className='product_btn'>В корзину</button>
             </div>
         </div>
     )

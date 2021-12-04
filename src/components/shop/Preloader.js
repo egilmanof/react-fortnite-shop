@@ -1,10 +1,13 @@
-
+import './Preloader.css';
 
 function Preloader() {
 
     return(
-        <div className='progress'>
-            <div className="indeterminate"></div>
+        <div className="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     )
 

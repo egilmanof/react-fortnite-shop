@@ -1,11 +1,11 @@
 import './Goodsitem.css'
 
 function GoodsItem(props) {
-    const {id, name, description, price, icon} = props;
+    const {id, name, description, price, icon, addToBasket = Function.prototype} = props;
 
     return (
         <div className='product'>
-            <div className="product_items" id={id}>
+            <div className="product_items">
                 <div className='product_info'>
                     <img src={icon} alt={name}/>
 
@@ -14,7 +14,13 @@ function GoodsItem(props) {
                 </div>
                 <span className='product_price'>{price}</span>
                 <span className='product_rate'>В-Баксов</span>
-                <button className='product_btn'>В корзину</button>
+                <button
+                    className='product_btn'
+                    onClick={() =>
+                        addToBasket({id, name, price,})}
+                    >
+                    В корзину
+                </button>
             </div>
         </div>
     )

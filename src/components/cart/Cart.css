@@ -4,17 +4,24 @@
     top: 20px;
     right: 40px;
     margin-left: auto;
-    background-image: linear-gradient(135deg, #bac55a 0%, #da960c 80%);
+    background-image: linear-gradient(135deg, #d6de94 0%, #e3b048 80%);
     width: 75px;
     height: 70px;
     border: 2px solid white;
     border-radius: 50%;
     padding: 10px;
+    cursor: pointer;
+}
+
+
+.cart:hover {
+    box-shadow: 0 0 10px 3px #dae809;
 }
 
 .cart_quantity {
-    position: absolute;
-    left: 27px;
-    top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -42px;
     color: white;
 }
+

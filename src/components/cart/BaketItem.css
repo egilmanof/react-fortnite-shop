@@ -1,0 +1,50 @@
+.order {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-image: linear-gradient(135deg, #49972a 0%, #87d359 90%);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.order_name {
+    flex: 3;
+    padding: 5px;
+
+}
+
+.order_quantity{
+    flex: 1;
+    padding: 5px;
+}
+
+.order_price{
+    flex: 1;
+    padding: 5px;
+}
+
+
+.order_btn {
+    flex: 1;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #7bc432;
+    border: 3px solid #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px black;
+    padding-bottom: 4px;
+}
+
+.order_btn:hover {
+    background-color: #62c9fc;
+}
+
+.order_btn:active {
+    background-color: #69adcb;
+}

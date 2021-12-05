@@ -1,13 +1,16 @@
 
 .shop {
-    background: url("../../images/bg-shop.jpg") top center/cover no-repeat;
+    background: rgba(255, 234, 13, 0.1);
+    background: url("../../images/bg-shop.jpg") top center/cover fixed;
+    padding-top: 30px;
 }
+
+
 
 .shop_container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 50px auto 0;
     text-align: center;
-    padding: 30px 0;
 }
 
 .shop_title {

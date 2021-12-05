@@ -3,9 +3,6 @@ import Event from "../event/Event";
 import Shop from "../shop/Shop";
 import Footer from "../footer/Footer";
 
-
-
-
 function App() {
   return (
     <>

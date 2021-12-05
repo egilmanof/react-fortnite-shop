@@ -1,6 +1,7 @@
 import {useState, useEffect} from "react";
 import Preloader from "./Preloader";
 import GoodsList from "./GoodsList";
+import Cart from "../cart/cart";
 import {API_URL, API_KEY} from "../../config";
 import './Shop.css';
 
@@ -25,6 +26,7 @@ function Shop() {
 
     return (
         <div className='shop'>
+            <Cart quantity={goods.length}/>
             <div className="shop_container">
                 {
                     loading ? <Preloader/> : <GoodsList goods={goods}/>

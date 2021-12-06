@@ -3,7 +3,7 @@ import Footer from "./components/footer/Footer";
 
 
 import {Routes, Route} from "react-router-dom";
-import Premium from "./pages/Premium";
+import News from "./pages/News";
 import Feedback from "./pages/Feedback";
 import Sale from "./pages/Sale";
 import Notfound from "./pages/Notfound";
@@ -13,7 +13,7 @@ function App() {
         <>
             <Header/>
                 <Routes>
-                    <Route path='/' element={<Premium />}/>
+                    <Route path='/' element={<News />}/>
                     <Route path='/sale' element={<Sale />}/>
                     <Route path='/feedback' element={<Feedback />}/>
                     <Route path='*' element={<Notfound />}/>

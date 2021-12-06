@@ -1,0 +1,10 @@
+.pass {
+    background: url("../../images/bg-pass.jpg") top center/cover no-repeat;
+}
+
+.pass_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: calc(100vh - 50px);
+}

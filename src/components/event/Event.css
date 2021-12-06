@@ -1,6 +1,5 @@
 .event {
     background: url("../../images/bg-event.jpg") top center/cover no-repeat;
-    height: 600px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -8,22 +7,9 @@
     border-bottom: 4px solid white;
     border-top: 4px solid white;
     min-height: calc(100vh - 50px - 80px);
+    padding: 60px 10px 40px;
 }
+
 .event_container {
     min-height: calc(100vh - 50px - 80px);
 }
-
-/*.event_title {*/
-/*    position: absolute;*/
-/*    bottom: -35px;*/
-/*    color: white;*/
-/*    font-size: 45px;*/
-/*    text-align: center;*/
-/*    font-family: sans-serif;*/
-/*    border: 3px solid white;*/
-/*    padding: 10px 20px;*/
-/*    border-radius: 10px;*/
-/*    background-color: rgba(9, 175, 40, 0.9);*/
-/*    text-shadow: 3px 3px 3px #000000;*/
-/*    z-index: 4;*/
-/*}*/

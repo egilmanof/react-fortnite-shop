@@ -12,7 +12,7 @@ function Header() {
             <Link to="/" className='header_logo'><img src={logo} alt="logo"/></Link>
             <nav className='header_nav'>
                 <ul className='header_nav-list'>
-                    <li className='header_nav-item'><NavLink to="/" className='header_nav-link' activeClassName='active'>Премиум</NavLink></li>
+                    <li className='header_nav-item'><NavLink to="/" className='header_nav-link'>Новости</NavLink></li>
                     <li className='header_nav-item'><NavLink to="/sale" className='header_nav-link'>Магазин</NavLink></li>
                     <li className='header_nav-item'><NavLink to="/feedback" className='header_nav-link'>Обратная связь</NavLink></li>
                 </ul>

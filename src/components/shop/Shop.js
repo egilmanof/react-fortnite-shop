@@ -2,7 +2,7 @@ import {useState, useEffect} from "react";
 import Preloader from "./Preloader";
 import GoodsList from "./GoodsList";
 import Cart from "../cart/Cart";
-import {API_URL, API_KEY} from "../../config";
+import {API_URL_SHOP, API_KEY} from "../../config";
 import './Shop.css';
 import BasketList from "../cart/BasketList";
 import Alert from "../cart/Alert";
@@ -87,7 +87,7 @@ function Shop() {
 
 
     useEffect(function getGoods() {
-        fetch(API_URL, {
+        fetch(API_URL_SHOP, {
             headers: {
                 Authorization: API_KEY,
             },
@@ -104,6 +104,7 @@ function Shop() {
         <div className='shop'>
             <Cart quantity={order.length} handleBasketShow={handleBasketShow}/>
             <div className="shop_container">
+                <h1 className='shop_title'>Новые игровые скины</h1>
                 {
                     loading ? <Preloader/> : <GoodsList goods={goods} addToBasket={addToBasket}/>
                 }

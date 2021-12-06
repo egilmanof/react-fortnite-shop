@@ -1,17 +1,24 @@
 import './Header.css';
 import logo from '../../icons/logo.png';
+import {Link, NavLink} from "react-router-dom";
+
+
+
+
 function Header() {
     return (
-        <div className='header'>
-            <a href="#!" className='header_logo'><img src={logo} alt="logo"/></a>
+        <header className='header'>
+            <div className='header_container'>
+            <Link to="/" className='header_logo'><img src={logo} alt="logo"/></Link>
             <nav className='header_nav'>
                 <ul className='header_nav-list'>
-                    <li className='header_nav-item'><a href="#!" className='header_nav-link'>Ссылка</a></li>
-                    <li className='header_nav-item'><a href="#!" className='header_nav-link'>Ссылка</a></li>
-                    <li className='header_nav-item'><a href="#!" className='header_nav-link'>Ссылка</a></li>
+                    <li className='header_nav-item'><NavLink to="/" className='header_nav-link' activeClassName='active'>Премиум</NavLink></li>
+                    <li className='header_nav-item'><NavLink to="/sale" className='header_nav-link'>Магазин</NavLink></li>
+                    <li className='header_nav-item'><NavLink to="/feedback" className='header_nav-link'>Обратная связь</NavLink></li>
                 </ul>
             </nav>
-        </div>
+            </div>
+        </header>
     );
 }
 

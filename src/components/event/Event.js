@@ -4,7 +4,10 @@ import './Event.css';
 function Event() {
     return (
         <div className="event">
-            <h1 className='event_title'>Распродажа редких скинов</h1>
+            <div className="event_container">
+
+
+            </div>
         </div>
     );
 }

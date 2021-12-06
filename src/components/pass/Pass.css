@@ -1,5 +1,7 @@
 .pass {
     background: url("../../images/bg-pass.jpg") top center/cover no-repeat;
+    border-top: 3px solid white;
+
 }
 
 .pass_container {

@@ -1,5 +1,5 @@
 .event {
-    background: url("../../images/bg-event.jpg") top center/cover no-repeat;
+    background: url("../../images/bg-event.jpg") top center/cover fixed;
     display: flex;
     align-items: flex-end;
     justify-content: center;

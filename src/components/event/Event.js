@@ -20,7 +20,8 @@ function Event() {
                 data.news && setNews(data.news);
                 setLoading(false);
             })
-    });
+
+    }, []);
 
 
     return (

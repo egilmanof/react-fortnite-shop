@@ -1,5 +1,5 @@
 import Event from "../components/event/Event";
-import Pass from "../components/Pass/Pass";
+import Pass from "../components/pass/Pass";
 
 
 function News() {

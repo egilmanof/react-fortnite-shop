@@ -1,6 +1,6 @@
 import './Header.css';
 import logo from '../../icons/logo.png';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 function Header() {
     return (
@@ -9,9 +9,9 @@ function Header() {
             <Link to='/' className='header_logo'><img src={logo} alt="logo"/></Link>
             <nav className='header_nav'>
                 <ul className='header_nav-list'>
-                    <li className='header_nav-item'><Link to='/' className='header_nav-link'>Новости</Link></li>
-                    <li className='header_nav-item'><Link to='/sale' className='header_nav-link'>Магазин</Link></li>
-                    <li className='header_nav-item'><Link to='/feedback' className='header_nav-link'>Обратная связь</Link></li>
+                    <li className='header_nav-item'><NavLink to='/' activeStyle='active' className='header_nav-link'>Новости</NavLink></li>
+                    <li className='header_nav-item'><NavLink to='/sale' className='header_nav-link'>Магазин</NavLink></li>
+                    <li className='header_nav-item'><NavLink to='/feedback' className='header_nav-link'>Обратная связь</NavLink></li>
                 </ul>
             </nav>
             </div>

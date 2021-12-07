@@ -26,6 +26,7 @@ function Event() {
 
     return (
         <div className="event">
+            <h1 className='event_title'> Только актуальные события</h1>
             <div className="event_container">
                 {
                     loading ? <Preloader/> : <NewsList news={news}/>

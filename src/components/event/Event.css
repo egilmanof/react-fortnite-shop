@@ -1,15 +1,30 @@
 .event {
     background: url("../../images/bg-event.jpg") top center/cover fixed;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+    flex-direction: column;
     position: relative;
     border-bottom: 4px solid white;
     border-top: 4px solid white;
     min-height: calc(100vh - 50px - 80px);
-    padding: 60px 10px 40px;
+    padding: 0 10px 40px;
+}
+
+.event_title {
+    display: flex;
+    justify-content: center;
+    margin: -40px auto 0;
+    font-size: 40px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgba(232, 32, 32, 0.8);
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
 }
 
 .event_container {
-    min-height: calc(100vh - 50px - 80px);
+    margin: 30px auto;
+    max-width: 1440px;
 }

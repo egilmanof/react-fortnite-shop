@@ -1,5 +1,5 @@
 import Event from "../components/event/Event";
-import Pass from "../components/pass/Pass";
+import Info from "../components/info/Info";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
@@ -8,7 +8,7 @@ function News() {
     return (
         <>
             <Header/>
-            <Pass/>
+            <Info/>
             <Event/>
             <Footer/>
         </>

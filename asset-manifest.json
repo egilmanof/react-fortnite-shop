@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-fortnite-shop/static/css/main.ba3969ed.chunk.css",
-    "main.js": "/react-fortnite-shop/static/js/main.92e3569c.chunk.js",
-    "main.js.map": "/react-fortnite-shop/static/js/main.92e3569c.chunk.js.map",
+    "main.css": "/react-fortnite-shop/static/css/main.90f60c19.chunk.css",
+    "main.js": "/react-fortnite-shop/static/js/main.aaef3a9c.chunk.js",
+    "main.js.map": "/react-fortnite-shop/static/js/main.aaef3a9c.chunk.js.map",
     "runtime-main.js": "/react-fortnite-shop/static/js/runtime-main.64746c7e.js",
     "runtime-main.js.map": "/react-fortnite-shop/static/js/runtime-main.64746c7e.js.map",
     "static/js/2.d568c90a.chunk.js": "/react-fortnite-shop/static/js/2.d568c90a.chunk.js",
     "static/js/2.d568c90a.chunk.js.map": "/react-fortnite-shop/static/js/2.d568c90a.chunk.js.map",
     "index.html": "/react-fortnite-shop/index.html",
-    "static/css/main.ba3969ed.chunk.css.map": "/react-fortnite-shop/static/css/main.ba3969ed.chunk.css.map",
+    "static/css/main.90f60c19.chunk.css.map": "/react-fortnite-shop/static/css/main.90f60c19.chunk.css.map",
     "static/js/2.d568c90a.chunk.js.LICENSE.txt": "/react-fortnite-shop/static/js/2.d568c90a.chunk.js.LICENSE.txt",
-    "static/media/Event.css": "/react-fortnite-shop/static/media/bg-event.4b955a08.jpg",
+    "static/media/Event.css": "/react-fortnite-shop/static/media/bg-event.02cf7de7.jpg",
     "static/media/Form.css": "/react-fortnite-shop/static/media/bg-feedback.d718848d.jpg",
-    "static/media/Info.css": "/react-fortnite-shop/static/media/bg-info.02cf7de7.jpg",
+    "static/media/Info.css": "/react-fortnite-shop/static/media/bg-info.4b955a08.jpg",
     "static/media/Shop.css": "/react-fortnite-shop/static/media/bg-shop.31cefaf3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.64746c7e.js",
     "static/js/2.d568c90a.chunk.js",
-    "static/css/main.ba3969ed.chunk.css",
-    "static/js/main.92e3569c.chunk.js"
+    "static/css/main.90f60c19.chunk.css",
+    "static/js/main.aaef3a9c.chunk.js"
   ]
 }

@@ -19,7 +19,6 @@
     text-shadow: 2px 2px 4px black;
     text-transform: uppercase;
     padding: 20px;
-
     color: white;
 }
 
@@ -32,6 +31,7 @@
 .info_description {
     margin-top: 40px;
     color: white;
+    font-size: 25px;
 }
 
 .info_slogan{
@@ -51,4 +51,32 @@
 .info_iframe {
     border: 3px solid white;
     border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .info_name {
+        font-size: 6.51vw;
+    }
+
+    .info_description{
+        font-size: 3.26vw;
+    }
+
+    .info_slogan{
+        font-size: 2.7vw;
+    }
+
+    .info_iframe {
+        width: 91.15vw;
+        height: 51.30vw;
+    }
+
+    .info_video {
+        margin: 3.91vw 0 5.21vw;
+    }
+
 }

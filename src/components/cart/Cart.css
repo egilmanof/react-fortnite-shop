@@ -1,7 +1,7 @@
 .cart {
     position: fixed;
     z-index: 5;
-    top: 60px;
+    bottom: 70px;
     right: 10px;
     margin-left: auto;
     background-image: linear-gradient(135deg, #d6de94 0%, #e3b048 80%);
@@ -24,4 +24,3 @@
     margin-top: -42px;
     color: white;
 }
-

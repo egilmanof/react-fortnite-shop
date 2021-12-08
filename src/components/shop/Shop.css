@@ -28,3 +28,14 @@
     padding: 10px;
     background-image: linear-gradient(135deg, #b4bd5e 0%, #da960c 80%);
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+    .shop_title {
+        font-size: 5.21vw;
+    }
+
+
+}

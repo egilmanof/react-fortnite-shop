@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     position: fixed;
-    top: 70px;
+    bottom: 75px;
     right: 90px;
     z-index: 3;
     padding: 10px;
@@ -13,4 +13,13 @@
     margin-left: auto;
     text-shadow: 1px 1px 3px black;
     font-size: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .alert {
+        font-size: 3.26vw;
+        bottom: 80px;
+    }
 }

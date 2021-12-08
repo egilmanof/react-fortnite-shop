@@ -12,7 +12,6 @@
 .order_name {
     flex: 3;
     padding: 5px;
-
 }
 
 .order_quantity{
@@ -30,7 +29,6 @@
     flex: 1;
     margin: 5px 5px 5px 0;
     border-radius: 5px;
-    height: 30px;
     background-color: #7bc432;
     border: 2px solid #ffffff;
     font-weight: bold;
@@ -38,7 +36,7 @@
     color: white;
     cursor: pointer;
     text-shadow: 1px 1px 3px black;
-    padding-bottom: 4px;
+    padding: 5px;
 }
 
 .order_btn:hover {
@@ -48,3 +46,29 @@
 .order_btn:active {
     background-color: #69adcb;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .order_name {
+        font-size: 2.60vw;
+    }
+
+    .order_quantity {
+        font-size: 2.60vw;
+    }
+
+    .order_price {
+        font-size: 2.60vw;
+    }
+
+    .order_btn {
+        padding: 0.65vw;
+    }
+
+    .order_btn:hover {
+        background-color: #7bc432;
+    }
+
+}
+

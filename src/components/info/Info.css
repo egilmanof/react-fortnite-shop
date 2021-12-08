@@ -4,8 +4,51 @@
 }
 
 .info_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
     min-height: calc(100vh - 50px);
+}
+
+
+.info_title {
+    text-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+    padding: 20px;
+
+    color: white;
+}
+
+.info_name {
+    align-items: start;
+    font-size: 50px;
+}
+
+
+.info_description {
+    margin-top: 40px;
+    color: white;
+}
+
+.info_slogan{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #d7dc22;
+}
+
+.info_video {
+    margin: 30px 0 40px;
+}
+.info_iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.info_iframe {
+    border: 3px solid white;
+    border-radius: 10px;
 }

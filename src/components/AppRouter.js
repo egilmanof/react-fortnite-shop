@@ -12,7 +12,6 @@ function AppRouter() {
     return(
             <Routes>
                 <Route path='/' element={<News/>} />
-                <Route path='react-fortnite-shop' element={<News/>} />
                 <Route path='/sale' element={<Sale/>} />
                 <Route path='/feedback' element={<Feedback/>} />
                 <Route path='*' element={<Notfound/>} />

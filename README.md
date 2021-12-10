@@ -1,4 +1,4 @@
-# Fortnite Shop portfolio project
+# Fortnite Shop portfolio project ФАЙЛ РЕДАКТИРУЕТСЯ
 Ссылка на [Демо](https://egilmanof.github.io/react-fortnite-shop/).
 
 Проектная работа для итоговой аттестации по курсу "веб-разработчик React/Redux".
@@ -21,3 +21,5 @@
 
 ###Footer
 Включает в себя копирайт, год создания проекта и ссылку на основной репозиторий разработчика. 
+
+
